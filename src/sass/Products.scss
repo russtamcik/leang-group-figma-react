@@ -1,0 +1,93 @@
+#product {
+  h1 {
+    margin-top: 40px;
+    text-align: center;
+    color: #2C2D2E;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+
+    span {
+      color: #EF7C00;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+  }
+
+  .btns {
+    text-align: center;
+    padding: 16px 0 16px 0;
+
+    button {
+      background-color: transparent;
+      border-radius: 61px;
+      border: 1px solid var(--color-border, rgba(0, 16, 61, 0.12));
+      padding: 10px 20px;
+      color: var(--color-primary, #EF7C00);
+      text-align: center;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Montserrat;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 13px;
+      transition: all 0.4s linear;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #EF7C00;
+      color: #fff;
+    }
+
+    .react-tabs__tab-list {
+      border: none !important;
+    }
+
+    .react-tabs__tab--selected {
+      border: none !important;
+    }
+  }
+
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+  }
+
+  .catalog {
+    margin: 32px 0 40px 0;
+    text-align: center;
+
+    button {
+      padding: 10px 20px;
+      border-radius: 4px;
+      border: 1px solid #EF7C00;
+      background-color: transparent;
+      color: var(--color-primary, #EF7C00);
+      text-align: center;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Montserrat;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      transition: all 0.4s linear;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #EF7C00;
+      color: #fff;
+    }
+  }
+}
